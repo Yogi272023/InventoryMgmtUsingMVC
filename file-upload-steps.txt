@@ -1,0 +1,9 @@
+// To work with files(now for our app user is writing url but 
+we want that they can upload file from the system whose url will be stored in model 
+and it will come from server through collector.)
+
+1. Install multer (to work with files with express we will use 3rd party package).
+2. Changes in view (for now in view it is type of text but we want it to be type file).
+3. Middleware to handle files.
+4. Apply the middleware.
+5. Update Controller to update urls of images.
